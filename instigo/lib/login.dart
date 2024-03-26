@@ -106,8 +106,8 @@ class _MyloginState extends State<Mylogin> {
                 // insertData();
                 String password = txtpassword.text;
                 print('Passwords: $password');
-                if (txtemail.text == 'admin@gmail.com' &&
-                    txtpassword.text == 'Admin') {
+                if (txtemail.text == 'a' &&
+                    txtpassword.text == 'a') {
                   // Accès autorisé, ouvrir la page 'admin'
                   Navigator.pushReplacement(
                     context,
